@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon app.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "Maximilian Schwarzmüller (Academind GmbH)",
@@ -18,7 +18,8 @@
   },
   "devDependencies": {
     "gh-pages": "^5.0.0",
-    "nodemon": "^2.0.22"
+    "nodemon": "^2.0.22",
+    "parcel-bundler": "^1.12.5"
   },
-  "homepage": "https://hashnsalt/github.com/nodeJS-express/"
+  "homepage": "https://github.com/hashnsalt/nodeJS-express/"
 }
